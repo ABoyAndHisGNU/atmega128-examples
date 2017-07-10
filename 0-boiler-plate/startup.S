@@ -33,7 +33,7 @@ vector_table:;	Function		Addr.	Src.	Def.
 	jmp	__xint5_handler		; $0C	INT5	Ext. Interrupt 5
 	jmp	__xint6_handler		; $0E	INT6	Ext. Interrupt 6
 	jmp	__xint7_handler		; $10	INT7	Ext. Interrupt 7
-.ORG 0x0046
+.ORG 0x008C
 
 .SECTION .text
 
